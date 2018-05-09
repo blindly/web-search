@@ -16,22 +16,10 @@ config = [
     "pattern": "https://duckduckgo.com/?q=%21+{{query}}",
     "bangs": ["dky"]
   },
-  /*
-  {
-    "fullname": "google.com/lucky",
-    "pattern": "https://www.google.com/search?q={{query}}&btnI",
-    "bangs": ["l"]
-  },
-  */
   {
     "fullname": "wolframalpha.com",
     "pattern": "https://www.wolframalpha.com/input/?i={{query}}",
     "bangs": ["wa"]
-  },
-  {
-    "fullname": "fivecat.xyz/save",
-    "pattern": "https://fivecat.xyz/save?bookmark={{query}}",
-    "bangs": [">>"]
   },
   {
     "fullname": "www.wikipedia.org",
@@ -94,7 +82,7 @@ config = [
   {
     "fullname": "kb.vmware.com",
     "pattern": "https://kb.vmware.com/s/global-search/{{query}}/",
-    "bangs": ["vmw", "v"]
+    "bangs": ["vmw",  "vm", "v"]
   }
 ];
 
