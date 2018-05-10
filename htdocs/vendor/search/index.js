@@ -12,6 +12,11 @@ config = [
     "bangs": ["g", "gus"]
   },
   {
+    "fullname": "www.searx.xyz",
+    "pattern": "hhttps://searx.xyz/?q={{query}}&category_general=on&time_range=&language=en-US",
+    "bangs": ["s", "sx"]
+  },
+  {
     "fullname": "duckduckgo.com/ducky",
     "pattern": "https://duckduckgo.com/?q=%21+{{query}}",
     "bangs": ["dky"]
